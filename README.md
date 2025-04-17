@@ -30,4 +30,4 @@
 - `docker-compose down`： 停止、移除運作中的容器，並且移除相關的映像檔（image）。
 - `docker volume rm dynamic-survey-api_db-data`：移除本地 Docker Volume 中存放的資料庫資料。
 
-容器順利運作後，請直接於網址列上輸入**localhost**，並可依需求輸入 Shell 指令停止、移除運作中的容器。
+容器順利運作後，請直接於網址列上輸入**localhost**，並可依需求輸入 Shell 指令停止、移除運作中的容器，停止服務。
