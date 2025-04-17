@@ -16,7 +16,7 @@
 
 此專案使用以下技術：
 
-- **前端**： [`dynamic-survey-ui`](https://github.com/rikka0823/dynamic-survey-ui)。
+- **前端**：[`dynamic-survey-ui`](https://github.com/rikka0823/dynamic-survey-ui)。
 - **後端**：[`dynamic-survey-api`](https://github.com/rikka0823/dynamic-survey-api/tree/main)。
 - **Nginx**：作為靜態網頁資源的存放伺服器，並以反向代理（Reverse Proxy）的技術，將前端 Angular 應用程式的請求路由轉向後端的 Spring Boot 服務。
 - **Docker**：採用 Docker Compose 的三層式架構（three tier architecture），前端（ui）、後端（api）、資料庫（db）個別容器化及整合的技術，簡化部署流程。
